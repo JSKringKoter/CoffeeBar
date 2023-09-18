@@ -9,6 +9,29 @@
 
     <style>
         /* 元素选择器 */
+
+        #divText {
+            width: 50%;
+            height: 80%;
+            box-sizing: border-box;
+            background-color:azure;
+
+            padding: 20px;
+            border: 1px solid gray;
+            margin: 30px;
+        }
+
+        #divTitle {
+            width: 50%;
+            height: 80%;
+            box-sizing: border-box;
+            background-color: rgba(255, 192, 203, 0.226);
+
+            padding: 20px;
+            border: 1px solid gray;
+            margin: 30px;
+        }
+
         h1 {
             color:rgb(78, 78, 78);
         }
@@ -28,25 +51,37 @@
             color:grey;
         }
         
+        #plast {
+            font-size: 4px;
+            text-align: right;
+        }
     </style>
     <link rel="stylesheet" href="">
 </head>
 <body>
-
+<div id="divTitle">
     <img src="https://github.com/JSKringKoter/CoffeeBar/blob/main/img/%E4%B8%A4%E5%B0%8F%E5%8F%AA.png?raw=true" width="1%"> <span style="font-size:3px;">COB首页 > 早报</span>
     <h1>我们领养了两只猫猫！</h1>
     <hr>
         <span id="date">2023年9月18日 15：58</span> <a href="http://jskringkoter.github.io" target="_blank">JS_KringKoter</a> 
     <hr>
-    <img src="https://github.com/JSKringKoter/CoffeeBar/blob/main/img/%E9%A2%A8%E7%A5%81%E5%B1%BF%E5%85%AB%E6%9C%882.png?raw=true" width="256px"> 
+</div>
 
+<div id="divText">
     <p>
         <strong> COB消息 </strong>店长阿伏特罗今日开门营业时，找到了两只走失的猫猫。据调查，这两只猫猫来自EHIS-12行星的未开发地区。这片地区由于核心物质浓度过高而不适合人类生存。这两只猫猫出生于高核心浓度中，因此在诞生时拥有体内核心。也正因如此，她们生长成了人形态，且具有自我意识。
     </p>
     <br>
+
+    <img src="https://github.com/JSKringKoter/CoffeeBar/blob/main/img/nekos/%E9%A2%A8%E7%A5%81%E5%B1%BF%E5%85%AB%E6%9C%88.png?raw=true" width="20%">
+    <img src="https://github.com/JSKringKoter/CoffeeBar/blob/main/img/nekos/%E9%A2%A8%E7%A5%81%E5%B1%BF%E4%B9%9D%E6%97%A5.png?raw=true" width="20%">
     <p>
         发现的那一天是8月9日，COB的店员们将两只猫中较大的起名叫做風祁屿九日，较小的叫做風祁屿八月。现在，八月和九日都已得到良好的安顿，她们今后将居住在COB里，逐步适应人类生活。
     </p>
+    <p id="plast">
+        编辑 副店长 克林沃特
+    </p>
 
+</div>
 </body>
 </html>
